@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/static/img/"  alt="" width="" height=""/>
+        </div>
+        <nav>
+            <a href="index.html">INICIO</a>
+            <a href="acercade.html">ACERCA DE</a>
+            <a href="contacto.html">CONTACTO</a>
+            <a href="opiniones.html">OPINIONES</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <div class="text">
+                <h1></h1>
+                <p></p>
+            </div>
+            <img src="" alt="">
+        </article>
+    </main>
+    <footer>
+        <div class="container">
+            <p class="footerP"></p> 
+            <nav class="footerNAV"></nav>
+        </div>
+    </footer>
+</body>
+</html>
+
+Myle Urdaneta 18:18
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
